@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif ;
+    font-family: bold;
+}
+
+section{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+   
+    
+}
+.imgBox{
+    background:url("./Login-rafiki.svg") no-repeat ;
+    background-size: cover;
+    height: 100%;
+    width: 40vw;
+}
+.signUpBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(247 251 255 / 78%);
+    width: 100%;
+    
+
+}
+.inputsAreaContainer{
+    background-color: white;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    padding: 30px ;
+   
+    
+}
+.inputsArea{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: start;
+ 
+    
+    
+}
+.wedjet{
+   padding-top: 10px ;
+   padding-right: 20px;
+   
+}
+.wedjet span{
+    display:block;
+}
+.wedjet input{
+    padding: 8px 30px;
+    border: #E5E7EB 2px solid;
+    border-radius: 5px;
+    margin: 5px 0;
+    outline: none;
+    font-size: large;
+
+}
+/* .wedjet input:invalid{
+    
+    border: red 1px solid;
+
+}  */
+.wedjet input:focus{ 
+    border: #009688 1px solid;
+
+} 
+.submitArea{
+    padding: 15px;
+   
+    
+}
+.submitArea button{
+    padding: 10px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.submitArea button:hover{
+    background-color: #03baa8;
+   
+}
+
+.submitArea a{
+    color: #009688;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
