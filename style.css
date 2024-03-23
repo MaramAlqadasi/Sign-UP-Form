@@ -42,6 +42,7 @@ section{
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     justify-content: start;
+    min-width: 35%;
  
     
     
@@ -98,5 +99,24 @@ section{
     color: #00bcd4;
     text-decoration: none;
     font-weight: bold;
+    
+}
+
+@media screen and (max-width:645px) {
+    section{
+        flex-direction: column;
+        
+    }
+    .imgBox{
+        width: 100vw;
+       
+    }
+    .inputsArea{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: fit-content;
+    }
     
 }
