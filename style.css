@@ -83,6 +83,18 @@ section{
     border: #00bcd4 1px solid;
 
 } 
+.wedjet input:invalid{
+    border:rgb(255, 51, 51) 1px solid;
+}
+.error {
+    color: rgb(255, 51, 51);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: none;
+    overflow: hidden;
+    margin-top: 4px;
+}
 .submitArea{
     padding: 15px;
    
