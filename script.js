@@ -5,6 +5,7 @@ const submitBtn = document.querySelector('button'),
       email = document.querySelector('#email'),
       errorDisplayers = document.getElementsByClassName('error'),
       inputFields = document.querySelectorAll('input')
+      
 
 let count = 2
 
@@ -45,14 +46,9 @@ passwordConfirm.addEventListener('keyup', (e)=>{
 })
 
 submitBtn.addEventListener('click', (e)=>{
-    e.preventDefault()
-    if(count > 5){
-        cardContainer.style.display = 'none'
-        outroOverlay.classList.remove('disabled')
-    }
-    else{
+
         for(let i=0; i<errorDisplayers.length; i++){
             errorDisplayers[i].textContent = '*This field is Required'
         }
-    }
+    
 })
