@@ -23,11 +23,25 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color:rgb(247 251 255 / 78%);
+    background-color:#f0f3f5bd;
     width: 100%;
     
 
 }
+.logoContainer{
+    display: flex;
+    color: #00bcd4;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+    margin: 30% 0;
+    background-color: #ffffffe3;
+    box-shadow: black 1px 3px 32px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 .inputsAreaContainer{
     background-color: white;
     -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
@@ -64,11 +78,7 @@ section{
     font-size: large;
 
 }
-/* .wedjet input:invalid{
-    
-    border: red 1px solid;
 
-}  */
 .wedjet input:focus{ 
     border: #00bcd4 1px solid;
 
@@ -117,6 +127,9 @@ section{
         justify-content: center;
         align-items: center;
         min-width: fit-content;
+    }
+    .logoContainer{
+        margin: 10% 0;
     }
     
 }
